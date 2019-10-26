@@ -15,5 +15,5 @@
 - Chọn Linker -> General -> Additional Library Directories thêm đường dẫn đến thư mục <emotiv Community SDK directory>\lib\win32 tron thư viện *Emotiv Community SDK* vừa tải ở trên.<br/>
 - Chọn Linker -> Input -> Additional Dependencies thêm <emotiv Community SDK directory>\lib\win32\edk.lib.<br/>
 - Chọn C/C++ -> Additional Include Directory thêm <emotiv Community SDK directory>\include.<br/>
-- Tiến hành build với platform win32.
+- Tiến hành build với *configuartion* là **debug**, *target platform* là **win32**.
 - Để chạy chương trình ta cần phải chép tệp edk.dll vào thư mục debug của project.<br/>
